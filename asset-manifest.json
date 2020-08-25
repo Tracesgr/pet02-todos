@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pet02-todos/static/css/main.5f361e03.chunk.css",
+    "main.js": "/pet02-todos/static/js/main.536959d5.chunk.js",
+    "main.js.map": "/pet02-todos/static/js/main.536959d5.chunk.js.map",
+    "runtime-main.js": "/pet02-todos/static/js/runtime-main.a01b4c1c.js",
+    "runtime-main.js.map": "/pet02-todos/static/js/runtime-main.a01b4c1c.js.map",
+    "static/js/2.95ecd329.chunk.js": "/pet02-todos/static/js/2.95ecd329.chunk.js",
+    "static/js/2.95ecd329.chunk.js.map": "/pet02-todos/static/js/2.95ecd329.chunk.js.map",
+    "index.html": "/pet02-todos/index.html",
+    "precache-manifest.6996944d56bb304bccef4254a62ab023.js": "/pet02-todos/precache-manifest.6996944d56bb304bccef4254a62ab023.js",
+    "service-worker.js": "/pet02-todos/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/pet02-todos/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.95ecd329.chunk.js.LICENSE.txt": "/pet02-todos/static/js/2.95ecd329.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a01b4c1c.js",
+    "static/js/2.95ecd329.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.536959d5.chunk.js"
+  ]
+}
