@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Table from './table'
+import AddTodo from './addTodo';
+// import {todoData} from './firebase'
+class  App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+  render() {
+
+    // var data = firebase.database().ref('node1/');
+    // data.once('value').then(function(snapshot) {
+    // console.log(snapshot.val())
+    // })
+    
+
+    // console.log(todoData.once('value')
+    //                             .then(function(snapshot) {
+    //                               console.log(snapshot.val())
+    //                             }));
+    return (
+      <div className="App">
+        <div className="container">
+          <div className="row">
+            <Table></Table>
+            <AddTodo></AddTodo>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
+  
 
-export default App;
+
+export default (App);
